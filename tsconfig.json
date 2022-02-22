@@ -21,12 +21,15 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "noImplicitAny": false, /* Tip to fix  */
+    "strictPropertyInitialization": false,  /* Tip to fix  */
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
+  "baseUrl": "src"
 }
